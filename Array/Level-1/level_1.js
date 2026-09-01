@@ -45,3 +45,6 @@ console.log(emptyArray);
 // An array can contain values of different data types.
 const mixeddata = [1, "heelo", true, null, undefined];
 console.log(mixeddata);
+
+const mixeddata1 = [1666, "hello", false, null, undefined, [1, 2, 3]];
+console.log(mixeddata1);
