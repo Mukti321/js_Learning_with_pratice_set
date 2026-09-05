@@ -46,3 +46,13 @@ const indexvegetable = vegetables.indexOf("tomato");
 const indexvegetable1 = vegetables.indexOf("mango");
 console.log(indexvegetable); // indexOf() method return the index of the element.
 console.log(indexvegetable1); // indexOf() method return the index of the element.
+
+// includes() Method
+//-----------------------
+// The includes() method check if an array contains a specified value or not
+// It returns true if the array contains the value, otherwise it returns false.
+ let numbers = [1,2,3,4,5];
+ let checknumber = numbers.includes(3);
+ let checknumber1 = numbers.includes(6);
+ console.log((checknumber)); // includes() method return true if the array contains the value.
+ console.log((checknumber1)); // includes() method return false if the array does not contains the value.
